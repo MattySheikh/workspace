@@ -1,0 +1,349 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"bracket",
+				"BracketHighlighter: Wrap Selections with Brackets"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"breacke",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"sublimel",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"git",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"blame",
+				"Set Syntax: Git Blame"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 127.0,
+		"history":
+		[
+			"php -1",
+			"php -l"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ftb/LeadGen/Uploaded Files/autoBytel.html",
+		"/home/ftb/LeadGen/Uploaded Files/autoBytelJS.js",
+		"/home/ftb/LeadGen/NewChoiceHealth.html",
+		"/home/ftb/findthebest/publishers/upload/forms/FinacialAdvisors.html",
+		"/home/ftb/LeadGen/Uploaded Files/FinacialAdvisors.html",
+		"/home/ftb/LeadGen/Uploaded Files/VMCollegesResults.html",
+		"/home/ftb/LeadGen/TestJS.js",
+		"/home/ftb/LeadGen/VMColleges/VMCollegesResults.html",
+		"/home/ftb/LeadGen/Uploaded Files/5thAveLeads1.html",
+		"/home/ftb/LeadGen/HireRight/HireRightForm.html",
+		"/home/ftb/findthebest/includes/batch.inc",
+		"/home/ftb/LeadGen/VM/FinalScript.js",
+		"/home/ftb/findthebest/sites/all/modules/custom/detail/detail.module",
+		"/home/ftb/.config/sublime-text-3/Packages/User/bh_wrapping.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/BracketHighlighter/bh_wrapping.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/Phpcs/Default (Linux).sublime-keymap",
+		"/home/ftb/.config/sublime-text-3/Packages/User/phpcs.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ftb/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/ftb/findthebest/themes/chameleon/common.css",
+		"/home/ftb/findthebest/sites/all/modules/custom/app_admin/odesk_guide.js",
+		"/home/ftb/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/ftb/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/ftb/findthebest/sites/all/modules/custom/detail/detail.js",
+		"/home/ftb/findthebest/sites/all/modules/custom/app_admin/odesk_guide.inc",
+		"/home/ftb/findthebest/sites/all/modules/custom/common/common.module",
+		"/home/ftb/findthebest/includes/bootstrap.inc",
+		"/home/ftb/findthebest/sites/all/modules/custom/detail/better_edit.inc"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jqu",
+			"colorbox.css",
+			"src=\"",
+			"colorbox",
+			"250_ad",
+			"css",
+			".css",
+			"show_errors",
+			"ajax",
+			"edit-field-icon",
+			"error-field",
+			"wait",
+			"#wait",
+			"display: bl",
+			"text-align",
+			"margin-bottom",
+			"label",
+			"clear",
+			"float_parent",
+			"right-side",
+			"border-rad",
+			"h1",
+			"ftb_t",
+			"ftb_t(",
+			"modal",
+			"nch_widget_modal",
+			".modal()",
+			"modal",
+			"hover",
+			"bg-blue",
+			"btn",
+			"select",
+			"enable",
+			"executable_path",
+			"inter",
+			"[",
+			"extensionse",
+			"save",
+			"underline",
+			"popup",
+			"unused",
+			"php",
+			"goto_def",
+			"ctrl+b",
+			"definition",
+			"show_login",
+			"david_test",
+			"#meat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"{\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "Leadgen.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"new",
+				"NewChoiceHealth.html"
+			],
+			[
+				"aut",
+				"Uploaded Files/autoBytelJS.js"
+			],
+			[
+				"auto",
+				"Uploaded Files/autoBytel.html"
+			],
+			[
+				"vm",
+				"VMColleges/VMCollegesResults.html"
+			],
+			[
+				"vmcoll",
+				"Uploaded Files/VMCollegesResults.html"
+			],
+			[
+				"5th",
+				"Uploaded Files/5thAveLeads1.html"
+			],
+			[
+				"newc",
+				"NewChoiceHealth.html"
+			],
+			[
+				"vmco",
+				"VMColleges/VMCollegesResults.html"
+			],
+			[
+				"commo",
+				"includes/common.inc"
+			],
+			[
+				"common.",
+				"themes/chameleon/common.css"
+			],
+			[
+				"detail.",
+				"sites/all/modules/custom/detail/detail.module"
+			],
+			[
+				"detail",
+				"sites/all/modules/custom/detail/detail.module"
+			],
+			[
+				"odesk_",
+				"sites/all/modules/custom/app_admin/odesk_guide.js"
+			],
+			[
+				"odesk_g",
+				"sites/all/modules/custom/app_admin/odesk_guide.inc"
+			],
+			[
+				"detail.j",
+				"sites/all/modules/custom/detail/detail.js"
+			],
+			[
+				"detail.mo",
+				"sites/all/modules/custom/detail/detail.module"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/findthebest/findthebest.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

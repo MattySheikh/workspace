@@ -1,0 +1,108 @@
+# Path to your oh-my-zsh installation.
+
+# ZSH
+export ZSH=$HOME/.oh-my-zsh
+alias zshconfig="slime ~/.zshrc"
+alias zshsource="source ~/.zshrc"
+
+# SackLunch
+alias sacklunch="cd ~/Sites/sacklunch"
+alias sackcoffee="cd ~/Sites/sacklunch/sacklunch/static/js; coffee -wc .;"
+alias sacksass="cd ~/Sites/sacklunch/sacklunch/static; compass watch;"
+alias sackserver="cd ~/Sites/sacklunch; python manage.py runserver;"
+
+# iCracked
+alias proddb="ssh -Nv matta@54.160.241.248 -L 9999:127.0.0.1:3306;"
+alias icracked="cd ~/Sites/icracked/website;"
+alias icrackedgit="fwknop -p 56565 -A 'tcp/22,tcp/443' -R -D git.icracked.com --key-rijndael 85745523 --wget /usr/local/bin/wget"
+alias icrackedsql="fwknop -p 56565 -A 'tcp/22' -R -D 54.160.241.248 --key-rijndael 85745523 --wget /usr/local/bin/wget"
+alias ng="ngrok -subdomain=matta 80"
+alias phprestart="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php56.plist; launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php56.plist"
+alias sshprod="ssh admin@54.173.235.176"
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="miloshadzic"
+
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# VirtualEnv
+export WORKON_HOME=$HOME/.virtualenvs
+export DEBATUM_PROJECT_HOME=$HOME/Sites/debatum
+export SACKLUNCH_PROJECT_HOME=$HOME/Sites/sacklunch
+source /usr/local/bin/virtualenvwrapper.sh
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to disable command auto-correction.
+# DISABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$PATH";
+PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
+
+export PHP_AUTO_CONF=/usr/local/bin/autoconf
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# Syntax highlighting
+# source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

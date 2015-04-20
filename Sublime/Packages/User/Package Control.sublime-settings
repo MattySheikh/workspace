@@ -1,0 +1,36 @@
+{
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"Jedi - Python autocompletion",
+		"Modific",
+		"Open Finder",
+		"Package Control",
+		"Phix Color Scheme",
+		"ReadmePlease",
+		"RubyTest",
+		"Sass",
+		"SASS Build",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-php",
+		"Syntax Highlighting for Sass",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"TrailingSpaces",
+		"WordHighlight",
+		"Xdebug Client"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/alpha/packages.json"
+	]
+}

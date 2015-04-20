@@ -1,0 +1,4 @@
+{
+	"last_test_run": "~/.rvm/bin/rvm-auto-ruby $(~/.rvm/bin/rvm gemdir | sed -e 's/@.*//' -e 's/$/@global/' )/bin/bundle exec rspec spec/requests/static_pages_spec.rb",
+	"last_test_working_dir": "/Users/matthewalsheikh/Projects/users_app"
+}
