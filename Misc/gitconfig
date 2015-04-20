@@ -1,0 +1,35 @@
+[user]
+	name = Matthew Al-Sheikh
+	email = matthewalsheikh@gmail.com
+[color]
+	ui = true
+[alias]
+	mylog = log --pretty=format:'%h %s [%an]' --graph
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+   s = status
+   co = checkout
+   pp = "!git pull; git push;"
+   spp = "!git stash; git pull; git stash pop;"
+   sppp = "!git stash; git pull; git push; git stash pop;"
+   bg = "!git bisect good;"
+   bb = "!git bisect bad;"
+   pull = "!git pull; git submodule update --init --recursive;"
+   sm = "!git submodule update --init --recursive;"
+   rbd = "!git fetch; git rebase origin/devel;"
+   ph = "!git push; git push heroku master;"
+   mm = "!git fetch; git merge origin/master;"
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+[branch "master"]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[fetch]
+	recurseSubmodules = true
+[grep]
+	lineNumber = true
+[core]
+	excludesfile = ~/.gitignore
+[http]
+	sslVerify = false
